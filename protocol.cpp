@@ -24,7 +24,7 @@ static const char* ppszTypeName[] =
 
 unsigned short nDefaultP2Port = 0;
 
-unsigned char pchMessageStart[4] = { 0xf9, 0xbe, 0xb4, 0xd9 };
+unsigned char pchMessageStart[4] = { 0x52, 0x49, 0x4E, 0x43 };
 
 CMessageHeader::CMessageHeader()
 {
